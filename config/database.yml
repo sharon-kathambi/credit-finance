@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: friends_api_production
-  username: friends_api
-  password: <%= ENV["FRIENDS_API_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
+ # database: friends_api_production
+ # username: friends_api
+ # password: <%= ENV["FRIENDS_API_DATABASE_PASSWORD"] %>
