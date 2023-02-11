@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import Login from "./components/Login";
 import Navbar from "./components/Navbar";
 import styles from "./style";
 
@@ -18,6 +19,7 @@ function App() {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`} >
         <div className={`${styles.boxWidth}`}>
+          <Login />
           stats
           business
           billing
