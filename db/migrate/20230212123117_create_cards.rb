@@ -4,7 +4,7 @@ class CreateCards < ActiveRecord::Migration[7.0]
       t.integer :account_id
       t.string :card_number
       t.datetime :expiry_date
-      t.string :type
+      t.string :card_type
 
       t.timestamps
     end
